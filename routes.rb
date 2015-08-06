@@ -1,4 +1,6 @@
 Ruby212Shopifyapp::Application.routes.draw do
+  resources :users
+
   get "dashboard/index"
   root 'application#hello'
   # The priority is based upon order of creation: first created -> highest priority.
